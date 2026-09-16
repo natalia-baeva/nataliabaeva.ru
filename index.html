@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Наталья Баева — личный сайт о красивой и активной жизни, путешествиях, саде и полезной еде.">
+  <meta name="description" content="Наталья Баева — гайды, цифровые продукты, сад, путешествия, рецепты и личные проекты.">
   <title>Наталья Баева</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -11,71 +11,64 @@
   <header class="site-header">
     <a class="brand" href="#top">Наталья Баева</a>
     <nav aria-label="Основная навигация">
-      <a href="#projects">Проекты</a>
-      <a href="#about">Обо мне</a>
       <a href="#guides">Гайды</a>
+      <a href="#rubrics">Рубрики</a>
+      <a href="#about">Обо мне</a>
+      <a href="#contacts">Контакты</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero" id="about">
       <div class="hero-copy">
-        <h1>
-          <span class="hero-line hero-line-1">Молодиться не годится,</span>
-          <span class="hero-line hero-line-2">в старость рано торопиться.</span>
-          <span class="hero-line hero-line-3">Самое время красиво жить.</span>
-        </h1>
-        <a class="button" href="#projects">Смотреть проекты</a>
+        <p class="eyebrow">Наталья Баева</p>
+        <h1>Гайды</h1>
+        <nav class="hero-rubrics" id="rubrics" aria-label="Рубрики сайта">
+          <a href="#">Не хочу быть тёткой <span>→</span></a>
+          <a href="#">Путешествия <span>→</span></a>
+          <a href="#">Сад <span>→</span></a>
+          <a href="#">Рецепты <span>→</span></a>
+        </nav>
       </div>
       <div class="hero-photo" aria-label="Главная фотография Натальи">
-        <div class="photo-note"><span>Здесь будет твоя фотография</span><small>подготовленный кадр на природе</small></div>
-      </div>
-    </section>
-
-    <section class="projects-wrap" id="projects">
-      <div class="projects">
-        <article class="card card-featured">
-          <span class="number">01</span>
-          <h2>Не хочу быть тёткой</h2>
-          <p class="card-phrase">Молодость — это привычка. И она тренируется.</p>
-          <p>Питание, движение, тело, красота, энергия и привычки, которые работают на будущее.</p>
-          <a href="#">Раздел готовится →</a>
-        </article>
-        <article class="card">
-          <span class="number">02</span>
-          <h2>Путешествия</h2>
-          <p class="card-phrase">Годы идут. Я тоже.<br>Желательно — куда-нибудь в горы.</p>
-          <a href="#">Раздел готовится →</a>
-        </article>
-        <article class="card">
-          <span class="number">03</span>
-          <h2>Сад</h2>
-          <p class="card-phrase">Выращиваю место, где мне хорошо: красиво, вкусно, полезно и спокойно.</p>
-          <p>Создаю малоуходный сад с чистым урожаем.</p>
-          <a href="#">Раздел готовится →</a>
-        </article>
-        <article class="card">
-          <span class="number">04</span>
-          <h2>Рецепты</h2>
-          <p class="card-phrase">Полезное обязано быть вкусным.</p>
-          <p>Готовлю, считаю КБЖУ и проверяю результат не только на весах.</p>
-          <a href="#">Раздел готовится →</a>
-        </article>
+        <div class="photo-note"><span>Здесь будет наша фотография</span><small>в белой рубашке на фоне реки</small></div>
       </div>
     </section>
 
     <section class="guides" id="guides">
-      <div>
-        <p class="section-kicker">Полезное</p>
-        <h2>Гайды, которые хочется сохранить</h2>
+      <div class="guides-heading">
+        <h2>Гайды</h2>
+        <p>Электронные книги · гайды · видеолекции · курсы</p>
       </div>
-      <p>Здесь появятся мои бесплатные и, позже, платные материалы: сад, рецепты, путешествия и другие практичные находки.</p>
+      <div class="guide-grid">
+        <article class="guide-card guide-coming">
+          <div class="guide-cover"><span>Скоро</span></div>
+          <div class="guide-copy">
+            <p class="guide-type">Сад</p>
+            <h3>Гайд по гортензиям</h3>
+            <p>Первый материал уже готовится.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <h2>Контакты</h2>
+      <div class="contact-links">
+        <span>Социальные сети и e-mail добавим здесь</span>
+      </div>
     </section>
   </main>
 
   <footer>
-    <strong>Наталья Баева</strong>
-    <span>© 2026 · nataliabaeva.ru</span>
+    <div>
+      <strong>Наталья Баева</strong>
+      <span>© 2026 · nataliabaeva.ru</span>
+    </div>
+    <nav aria-label="Юридическая информация">
+      <a href="#">Политика конфиденциальности</a>
+      <a href="#">Согласие на обработку персональных данных</a>
+    </nav>
   </footer>
 </body>
 </html>
